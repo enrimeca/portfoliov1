@@ -1,17 +1,23 @@
 import React from 'react'
+// import '../assets/styles/App.scss'
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
  
-import { BrowserRouter, Route } from 'react-router-dom'
- 
-import Layout from '../components/Layout'
+import Layout from '../src/components/Layout'
 import Home from '../src/pages/Home'
+import NotFound from '../src/pages/NotFound'
  
-export default function App() {
-    return (
-      <BrowserRouter>
-        <Layout>
-          <Route path='/home' component={home} />
-          {/* <Route path='/items/new' component={ItemsNew} /> */}
-        </Layout>
-      </BrowserRouter>
-    )
+function App() {
+  return (
+    <BrowserRouter>
+      <Layout>
+        <Switch> 
+          <Route exact path="/" component = { Home } />
+          <Route exact path="/page" component = {Page} />
+          <Route component = {NotFound} />
+        </Switch>
+      </Layout>
+    </BrowserRouter>
+  );
 }
+ 
+export default App
