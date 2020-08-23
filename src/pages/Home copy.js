@@ -26,8 +26,14 @@ export class Home extends Component {
     console.log('landingPageData :', this.state.landingPageData)
     return (
       <Fragment>
-        <Header data={this.state.landingPageData.Header}/>        
+        <Header data={this.state.landingPageData.Header}/>
+        <Features data={this.state.landingPageData.Features}/>
         <About  data={this.state.landingPageData.About}/>
+        <Services  data={this.state.landingPageData.Services}/>
+        <Gallery />
+        <Testimonials  data={this.state.landingPageData.Testimonials}/>
+        <Team  data={this.state.landingPageData.Team}/>
+        <Contact  data={this.state.landingPageData.Contact}/>
       </Fragment>
     )
   }
