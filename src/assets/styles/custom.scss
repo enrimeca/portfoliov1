@@ -1,5 +1,77 @@
+$celeste-color: #42D9C8;
+$lightblue-color: #2C8C99;
+$blue-color: #326771;
+$darkblue-color: #28464B;
+$red-color: #931621;
+$gray-color: #f8f9fa;
+
 .navbar-light .navbar-nav .nav-link.active{
-  border-bottom: solid 2px #326771;
-  /* text-decoration: underline; */
+  border-bottom: solid 2px $blue-color;
   font-weight: 500;
+}
+
+body {
+  font-family: 'Lato', arial, sans-serif;  
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #28464B;
+}
+
+
+h1{
+  font-size: 2.3rem;
+}
+
+h2{
+  font-size: 1.8rem;
+}
+
+h3{
+  font-size: 1.4rem;
+}
+
+h4{
+  font-size: 1.1rem;
+}
+
+p{
+  text-align: justify;
+}
+
+.section{
+  padding: 15px 20px 5px;
+}
+
+.section-inner{
+  background: $gray-color;
+  padding: 20px;
+}
+
+.btn-linkedin, .btn-resume {
+  font-size: 12px;
+  font-weight: 700;
+  color: $lightblue-color;
+  border: solid 1px $lightblue-color;
+} 
+
+@media (max-width: 576px) { 
+  h1{
+    font-size: 1.9rem;
+  }  
+
+  h2{
+    font-size: 1.5rem;
+  }  
+
+  h3{
+    font-size: 1.2rem;
+  }  
+  
+  h4{
+    font-size: 1rem;
+  }
 }

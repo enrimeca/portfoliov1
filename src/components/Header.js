@@ -1,29 +1,24 @@
 import React, { Component } from 'react'
+import '../assets/styles/components/Header.scss';
+import photo from '../assets/images/profile.jpg';
 
 export class Header extends Component {
   render() {
     return (
-      <header id="header">
-        <div className="intro">
-          <div className="overlay">
-            <div className="container">
-              <div className="row">
-                <div className="col-md-8 col-md-offset-2 intro-text">
-                  <h1>
-                    {this.props.data ? this.props.data.title : "Loading"}
-                    <span></span>
-                  </h1>
-                  <p>
-                    {this.props.data ? this.props.data.paragraph : "Loading"}
-                  </p>
-                  <a
-                    href="#features"
-                    className="btn btn-custom btn-lg page-scroll"
-                  >
-                    Learn More
-                  </a>{" "}
-                </div>
-              </div>
+      <header id="header" className="section">
+        <div className="container mt-2 mb-2 section-inner">
+          <div className="row h-100">
+            <div className="col-md-6 col-12">
+            <img class="profile-image img-fluid rounded-circle mx-auto d-block pb-3" src={photo} alt="profile image" />
+            </div>
+            <div className="col-md-6 col-12 my-auto">
+              <div className="container">
+                <h4 className='title'>Hi, my name is</h4>
+                <h1 className='name'>Enrique Mejía</h1>
+                <p className='description'>I'm a software engineer based in Piura, Perú specializing in building and designing websites with Javascript and other technologies.</p>
+                <a class="btn btn-linkedin mr-2" href="https://www.linkedin.com/in/enriquemejiacano/" role="button" target="_blank">Linkedin</a>  
+                <a class="btn btn-resume" href="#" role="button" target="_blank">Resume</a>  
+              </div>               
             </div>
           </div>
         </div>

@@ -1,0 +1,37 @@
+$celeste-color: #42D9C8;
+$lightblue-color: #2C8C99;
+$blue-color: #326771;
+$darkblue-color: #28464B;
+$red-color: #931621;
+$gray-color: #f8f9fa;
+
+
+.profile-image{
+  max-width: 250px;
+}
+
+@media (max-width: 576px) { 
+  h1{
+    font-size: 1.8rem;
+  }  
+  
+  h4{
+    font-size: 0.9rem;
+  }
+
+  .profile-image{
+    max-width: 200px;
+  }
+}
+
+.title{
+  color: $lightblue-color;
+}
+
+// @media (min-width: 768px) { ... }
+
+
+// @media (min-width: 992px) { ... }
+
+
+// @media (min-width: 1200px) { ... }
