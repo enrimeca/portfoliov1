@@ -1,0 +1,15 @@
+$celeste-color: #42D9C8;
+$lightblue-color: #2C8C99;
+$blue-color: #326771;
+$darkblue-color: #28464B;
+$red-color: #931621;
+$gray-color: #f8f9fa;
+
+#footer {
+  background: linear-gradient(90deg, $darkblue-color, $blue-color 25%, $lightblue-color);  
+  border-top: 25px solid $gray-color;
+}
+
+.footer-text{
+  color: $gray-color;
+}

@@ -12,7 +12,6 @@ function App() {
       <Layout>
         <Switch> 
           <Route exact path="/" component = { Home } />
-          {/* <Route exact path="/page" component = {Page} /> */}
           <Route component = {NotFound} />
         </Switch>
       </Layout>

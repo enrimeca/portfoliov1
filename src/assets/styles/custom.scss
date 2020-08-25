@@ -15,9 +15,15 @@ body {
   font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
+  color: #28464B;
+}
+
+h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   color: #28464B;
 }
 
@@ -38,17 +44,21 @@ h4{
   font-size: 1.1rem;
 }
 
+h5{
+  font-size: 0.9rem;
+}
+
 p{
   text-align: justify;
 }
 
 .section{
-  padding: 15px 20px 5px;
+  padding: 30px 40px 10px;
 }
 
 .section-inner{
   background: $gray-color;
-  padding: 20px;
+  padding: 40px;
 }
 
 .btn-linkedin, .btn-resume {
@@ -60,18 +70,31 @@ p{
 
 @media (max-width: 576px) { 
   h1{
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }  
 
   h2{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }  
 
   h3{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }  
   
   h4{
-    font-size: 1rem;
+    font-size: 0.9rem;
+  }
+
+  h5{
+    font-size: 0.8rem;
+  }
+
+  .section{
+    padding: 15px 20px 5px;
+  }
+  
+  .section-inner{
+    background: $gray-color;
+    padding: 20px;
   }
 }
