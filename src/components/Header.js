@@ -17,7 +17,7 @@ export class Header extends Component {
               <div className="container">
                 <h4 className='title'>Hi, my name is</h4>
                 <h1 className='name'>Enrique Mejía</h1>
-                <p className='description'>I'm a software engineer based in Piura, Perú specializing in building and designing websites with Javascript and other technologies.</p>
+                <p className='description'>I'm a software engineer based in Piura, Peru specializing in building and designing websites with Javascript and other technologies.</p>
                 <p className='description pb-3'><strong>enriquemejiacano@gmail.com</strong></p>
                 <a title="Linkedin" href="https://www.linkedin.com/in/enriquemejiacano/" target="_blank" ><img src={ Linkedin } className='social-logo' alt='Linkedin' /></a>
                 <a title="Resume" href="https://www.linkedin.com/in/enriquemejiacano/" target="_blank" ><img src={ Resume } className='social-logo ml-4' alt='Linkedin' />(es)</a>
