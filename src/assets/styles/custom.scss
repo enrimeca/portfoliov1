@@ -5,9 +5,14 @@ $darkblue-color: #28464B;
 $red-color: #931621;
 $gray-color: #f8f9fa;
 
+.navbar-nav {
+  color: $darkblue-color;
+  font-weight: 600;
+}
+
 .navbar-light .navbar-nav .nav-link.active{
   border-bottom: solid 2px $blue-color;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 body {

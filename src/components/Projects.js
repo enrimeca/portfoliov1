@@ -8,7 +8,7 @@ export class Projects extends Component {
       <div id="projects" className="section">
         <div className="container mt-2 mb-2 section-inner">
           <div className="row">
-            <div className="col mx-3">
+            <div className="col mx-3 mb-3">
               <h2>Projects</h2>
             </div>
           </div>
@@ -21,10 +21,24 @@ export class Projects extends Component {
                 <img className="card-img-top" src={Project1} alt="Foto de Sacha" />
                 <div className="card-body">
                   <div className="badges">
-                    <span className="badge badge-warning">JavaScript</span>
+                    <span className="badge badge-warning mr-1">JavaScript</span>
+                    <span className="badge badge-danger mr-1">Nextjs</span>
+                    <span className="badge badge-success">Bootstrap</span>
+                  </div>
+                  <div className="card-title mt-2"><strong>Evzonature</strong></div>
+                  <p className="card-text">Clean, minimalistic and very fast Ecommerce.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 col-lg-4 mb-4">
+              <div className="card">
+                <img className="card-img-top" src={Project1} alt="Foto de Sacha" />
+                <div className="card-body">
+                  <div className="badges">
+                    <span className="badge badge-warning mr-1">JavaScript</span>
                     <span className="badge badge-info">React</span>
                   </div>
-                  <h5 className="card-title mt-2">Sacha Lifszyc</h5>
+                  <div className="card-title mt-2"><strong>Apireyna</strong></div>
                   <p className="card-text">Vivamus quam mi, egestas eu metus id, mollis suscipit ipsum. In vel mollis mauris. Nunc id sem a lacus tincidunt pretium in in urna. Nam mi nisi, tincidunt ac tincidunt id, fermentum at metus.</p>
                 </div>
               </div>
@@ -34,23 +48,10 @@ export class Projects extends Component {
                 <img className="card-img-top" src={Project1} alt="Foto de Sacha" />
                 <div className="card-body">
                   <div className="badges">
-                    <span className="badge badge-warning">JavaScript</span>
-                    <span className="badge badge-info">React</span>
-                  </div>
-                  <h5 className="card-title mt-2">Leonidas Esteban</h5>
-                  <p className="card-text">Vivamus quam mi, egestas eu metus id, mollis suscipit ipsum. In vel mollis mauris. Nunc id sem a lacus tincidunt pretium in in urna. Nam mi nisi, tincidunt ac tincidunt id, fermentum at metus.</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-md-6 col-lg-4 mb-4">
-              <div className="card">
-                <img className="card-img-top" src={Project1} alt="Foto de Sacha" />
-                <div className="card-body">
-                  <div className="badges">
-                    <span className="badge badge-secondary">Negocios</span>
+                    <span className="badge badge-secondary mr-1">Piura Clases</span>
                     <span className="badge badge-danger">Startups</span>
                   </div>
-                  <h5 className="card-title mt-2">Freddy Vega</h5>
+                  <div className="card-title mt-2"><strong>Piura Clases</strong></div>
                   <p className="card-text">Vivamus quam mi, egestas eu metus id, mollis suscipit ipsum. In vel mollis mauris. Nunc id sem a lacus tincidunt pretium in in urna. Nam mi nisi, tincidunt ac tincidunt id, fermentum at metus.</p>
                 </div>
               </div>
@@ -60,10 +61,10 @@ export class Projects extends Component {
               <img className="card-img-top" src={Project1} alt="Foto de Sacha" />
               <div className="card-body">
                 <div className="badges">
-                  <span className="badge badge-secondary">Negocios</span>
+                  <span className="badge badge-secondary mr-1">Piura Clases</span>
                   <span className="badge badge-danger">Startups</span>
                 </div>
-                <h5 className="card-title mt-2">Christian Van Der H.</h5>
+                <div className="card-title mt-2"><strong>Portfolio - Enrique Mejía</strong></div>
                 <p className="card-text">Vivamus quam mi, egestas eu metus id, mollis suscipit ipsum. In vel mollis mauris. Nunc id sem a lacus tincidunt pretium in in urna. Nam mi nisi, tincidunt ac tincidunt id, fermentum at metus.</p>
               </div>
             </div>
@@ -105,6 +106,10 @@ export class Projects extends Component {
                     <span className="sr-only">Next</span>
                   </a>
                 </div>
+              </div>
+
+              <div className="modal-body">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni harum voluptatibus sit doloribus sed dignissimos, blanditiis voluptate id cupiditate pariatur possimus, qui tenetur repellat minima architecto placeat corporis minus amet.</p>
               </div>
 
               <div className="modal-footer">

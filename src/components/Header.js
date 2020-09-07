@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import '../assets/styles/components/Header.scss';
 import photo from '../assets/images/profile.jpg';
+import Linkedin from '../assets/images/linkedin.svg';
+import Resume from '../assets/images/resume.svg';
 
 export class Header extends Component {
   render() {
@@ -16,9 +18,10 @@ export class Header extends Component {
                 <h4 className='title'>Hi, my name is</h4>
                 <h1 className='name'>Enrique Mejía</h1>
                 <p className='description'>I'm a software engineer based in Piura, Perú specializing in building and designing websites with Javascript and other technologies.</p>
-                <p className='description'><strong>enriquemejiacano@gmail.com</strong></p>
-                <a className="btn btn-linkedin mr-2" href="https://www.linkedin.com/in/enriquemejiacano/" role="button" target="_blank">Linkedin</a>  
-                <a className="btn btn-resume" href="#" role="button" target="_blank">Resume</a>  
+                <p className='description pb-3'><strong>enriquemejiacano@gmail.com</strong></p>
+                <a title="Linkedin" href="https://www.linkedin.com/in/enriquemejiacano/" target="_blank" ><img src={ Linkedin } className='social-logo' alt='Linkedin' /></a>
+                <a title="Resume" href="https://www.linkedin.com/in/enriquemejiacano/" target="_blank" ><img src={ Resume } className='social-logo ml-4' alt='Linkedin' />(es)</a>
+                <a title="Resume"  href="https://www.linkedin.com/in/enriquemejiacano/" target="_blank" ><img src={ Resume } className='social-logo ml-4' alt='Linkedin' />(en)</a>
               </div>               
             </div>
           </div>

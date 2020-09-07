@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import '../assets/styles/components/About.scss';
-import about from '../assets/images/about.jpg'
 
 export class About extends Component {
   render() {
@@ -28,8 +27,8 @@ export class About extends Component {
                   <li>-HTML & (S)CSS</li>
                   <li>-React</li>                
                   <li>-Bootstrap</li>
+                  <li>-Nextjs</li>
                   <li>-Node.js</li>
-                  <li>-Gatsby</li>
               </ul>   
             </div>
           </div>

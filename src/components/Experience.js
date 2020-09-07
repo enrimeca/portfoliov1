@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import '../assets/styles/components/Experience.scss';
-import about from '../assets/images/about.jpg'
 
 export class Experience extends Component {
   render() {
@@ -15,6 +14,25 @@ export class Experience extends Component {
           
             <div className="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
 
+            <div className="card">
+                <div className="card-header" role="tab" id="headingOne1">
+                <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1" className='text-decoration-none'>
+                  <h5 className="mb-0">
+                    Freelance (02/2020 - today)                     
+                    <p>Full Stack Javascript</p>
+                  </h5>                     
+                  </a>
+                </div>
+
+                <div id="collapseOne1" className="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
+                  <div className="card-body">
+                  <p>•Write modern, performant, maintainable code for a diverse array of clients and projects.</p>
+                  <p>•Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, React, TypeScript, Nextjs, Boostrap, Sass, Nodejs and Vercel.</p>
+                  <p>•Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness.</p>
+                  </div>
+                </div>
+              </div>
+
               <div className="card">
                 <div className="card-header" role="tab" id="headingOne1">
                 <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1" className='text-decoration-none'>
@@ -25,7 +43,7 @@ export class Experience extends Component {
                   </a>
                 </div>
 
-                <div id="collapseOne1" className="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
+                <div id="collapseOne1" className="collapse" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
                   <div className="card-body">
                   <p>•Configuration and administration in Sharepoint Online (Lists, Groups, Libraries).</p>
                   <p>•Consumption of services and APIS (Sharepoint REST Service).</p>
