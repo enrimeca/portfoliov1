@@ -26,7 +26,7 @@ import evz3 from '../assets/images/evz3.jpg';
 
 import port1 from '../assets/images/port1.jpg';
 import port2 from '../assets/images/port2.jpg';
-import port3 from '../assets/images/port2.jpg';
+import port3 from '../assets/images/port3.jpg';
 
 export class Projects extends Component {
   render() {
@@ -50,8 +50,8 @@ export class Projects extends Component {
                   </div>
                   <div className="card-title mt-2"><strong>Evzonature</strong></div>
                   <p className="card-text">Clean, minimalistic and very fast website.  Ecommerce of Eco Friendly Products.</p>
-                  <div class="text-center"> 
-                    <a class="btn btn-showInfo btn-block" href="#" data-toggle="modal" role="button" data-target="#exampleModal4" target="_blank">See more</a>
+                  <div className="text-center"> 
+                    <a className="btn btn-showInfo btn-block" href="#" data-toggle="modal" role="button" data-target="#exampleModal4" target="_blank">See more</a>
                   </div>
                 </div>
               </div>
@@ -67,8 +67,8 @@ export class Projects extends Component {
                   </div>
                   <div className="card-title mt-2"><strong>Apireyna</strong></div>
                   <p className="card-text">Clean, minimalistic and very fast website.  Ecommerce of Eco Friendly Products.</p>
-                  <div class="text-center"> 
-                    <a class="btn btn-showInfo btn-block" href="#" data-toggle="modal" role="button" data-target="#exampleModal3" target="_blank">See more</a>
+                  <div className="text-center"> 
+                    <a className="btn btn-showInfo btn-block" href="#" data-toggle="modal" role="button" data-target="#exampleModal3" target="_blank">See more</a>
                   </div>
                 </div>
               </div>
@@ -85,8 +85,8 @@ export class Projects extends Component {
                   </div>
                   <div className="card-title mt-2"><strong>Piura Clases</strong></div>
                   <p className="card-text">Clean, minimalistic and very fast website.  Ecommerce of Eco Friendly Products.</p>
-                  <div class="text-center"> 
-                    <a class="btn btn-showInfo btn-block" href="#" data-toggle="modal" role="button" data-target="#exampleModal2" target="_blank">See more</a>
+                  <div className="text-center"> 
+                    <a className="btn btn-showInfo btn-block" href="#" data-toggle="modal" role="button" data-target="#exampleModal2" target="_blank">See more</a>
                   </div>
                 </div>
               </div>
@@ -102,8 +102,8 @@ export class Projects extends Component {
                   </div>
                   <div className="card-title mt-2"><strong>Portfolio</strong></div>
                   <p className="card-text">Clean, minimalistic and very fast website.  Ecommerce of Eco Friendly Products.</p>
-                  <div class="text-center"> 
-                    <a class="btn btn-showInfo btn-block" href="#" data-toggle="modal" role="button" data-target="#exampleModal1" target="_blank">See more</a>
+                  <div className="text-center"> 
+                    <a className="btn btn-showInfo btn-block" href="#" data-toggle="modal" role="button" data-target="#exampleModal1" target="_blank">See more</a>
                   </div>
                 </div>
             </div>
@@ -115,8 +115,8 @@ export class Projects extends Component {
           <div className="modal-dialog" role="document">
             <div className="modal-content">
               <div className="modal-header d-flex justify-content-between">
-                <a title="Code" href="https://github.com/enrimeca/evzonature" target="_blank" ><img src={ Github } className='icon-link' alt='Code' /></a>
-                <a title="Live Demo" href="https://evzonature.vercel.app" target="_blank" ><img src={ Show } className='icon-link' alt='Live Demo' /></a>               
+                <a title="Code" href="https://github.com/enrimeca/evzonature" target="_blank" rel="noopener" ><img src={ Github } className='icon-link' alt='Code' /></a>
+                <a title="Live Demo" href="https://evzonature.vercel.app" target="_blank" rel="noopener" ><img src={ Show } className='icon-link' alt='Live Demo' /></a>               
               </div>
               <div className="modal-body">
                 
@@ -160,8 +160,8 @@ export class Projects extends Component {
           <div className="modal-dialog" role="document">
             <div className="modal-content">
               <div className="modal-header d-flex justify-content-between">
-                <a title="Code" href="https://github.com/enrimeca/apireyna" target="_blank" ><img src={ Github } className='icon-link' alt='Code' /></a>
-                <a title="Live Demo" href="https://apireyna.vercel.app" target="_blank" ><img src={ Show } className='icon-link' alt='Live Demo' /></a>               
+                <a title="Code" href="https://github.com/enrimeca/apireyna" target="_blank" rel="noopener" ><img src={ Github } className='icon-link' alt='Code' /></a>
+                <a title="Live Demo" href="https://apireyna.vercel.app" target="_blank" rel="noopener" ><img src={ Show } className='icon-link' alt='Live Demo' /></a>               
               </div>
               <div className="modal-body">
                 
@@ -203,8 +203,8 @@ export class Projects extends Component {
           <div className="modal-dialog custom-modal" role="document">
             <div className="modal-content">
               <div className="modal-header d-flex justify-content-between">
-                <a title="Code" href="https://github.com/enrimeca/registroParticipantes" target="_blank" ><img src={ Github } className='icon-link' alt='Code' /></a>
-                <a title="Live Demo" href="https://regparticipantes.vercel.app" target="_blank" ><img src={ Show } className='icon-link' alt='Live Demo' /></a>               
+                <a title="Code" href="https://github.com/enrimeca/registroParticipantes" target="_blank" rel="noopener" ><img src={ Github } className='icon-link' alt='Code' /></a>
+                <a title="Live Demo" href="https://regparticipantes.vercel.app" target="_blank" rel="noopener" ><img src={ Show } className='icon-link' alt='Live Demo' /></a>               
               </div>
               <div className="modal-body">
                 
@@ -246,8 +246,8 @@ export class Projects extends Component {
           <div className="modal-dialog" role="document">
             <div className="modal-content">
               <div className="modal-header d-flex justify-content-between">
-                <a title="Code" href="https://github.com/enrimeca/portfoliov1" target="_blank" ><img src={ Github } className='icon-link' alt='Code' /></a>
-                <a title="Live Demo" href="https://enriquemejiacano.vercel.app/" target="_blank" ><img src={ Show } className='icon-link' alt='Live Demo' /></a>               
+                <a title="Code" href="https://github.com/enrimeca/portfoliov1" target="_blank" rel="noopener" ><img src={ Github } className='icon-link' alt='Code' /></a>
+                <a title="Live Demo" href="https://enriquemejiacano.vercel.app/" target="_blank" rel="noopener" ><img src={ Show } className='icon-link' alt='Live Demo' /></a>               
               </div>
               <div className="modal-body">
                 
