@@ -18,7 +18,7 @@ export class Experience extends Component {
                 <div className="card-header" role="tab" id="headingOne1">
                 <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1" className='text-decoration-none'>
                   <h5 className="mb-0">
-                    Freelance (02/2020 - today)                     
+                    FREELANCE (02/2020 - today)                     
                     <p>Frontend & Full Stack Javascript</p>
                   </h5>                     
                   </a>
