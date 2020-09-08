@@ -21,7 +21,7 @@ export class Header extends Component {
                 <p className='description pb-3'><strong>enriquemejiacano@gmail.com</strong></p>
                 <a title="Linkedin" href="https://www.linkedin.com/in/enriquemejiacano/" target="_blank" rel="noopener" ><img src={ Linkedin } className='social-logo' alt='Linkedin' /></a>
                 <a title="Resume" href="https://drive.google.com/file/d/1XehUTEruath9f6_uTS1jqPLL2GG8NXLD/view?usp=sharing" target="_blank" rel="noopener" ><img src={ Resume } className='social-logo ml-4' alt='Linkedin' />(es)</a>
-                <a title="Resume"  href="https://drive.google.com/file/d/1XehUTEruath9f6_uTS1jqPLL2GG8NXLD/view?usp=sharing" target="_blank" rel="noopener" ><img src={ Resume } className='social-logo ml-4' alt='Linkedin' />(en)</a>
+                <a title="Resume"  href="https://drive.google.com/file/d/1Y267z2nrtFjYBIk45A_0nYkRYjqAk2ct/view?usp=sharing" target="_blank" rel="noopener" ><img src={ Resume } className='social-logo ml-4' alt='Linkedin' />(en)</a>
               </div>               
             </div>
           </div>
