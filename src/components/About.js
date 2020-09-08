@@ -25,10 +25,10 @@ export class About extends Component {
               <ul className='skills-list'>
                   <li>-JavaScript (ES6+)</li>                
                   <li>-HTML & (S)CSS</li>
-                  <li>-React</li>                
+                  <li>-Reactjs</li>                
                   <li>-Bootstrap</li>
                   <li>-Nextjs</li>
-                  <li>-Node.js</li>
+                  <li>-Nodejs</li>
               </ul>   
             </div>
           </div>

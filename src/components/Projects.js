@@ -24,9 +24,9 @@ import evz1 from '../assets/images/evz1.jpg';
 import evz2 from '../assets/images/evz2.jpg';
 import evz3 from '../assets/images/evz3.jpg';
 
-import port1 from '../assets/images/port1.jpg';
-import port2 from '../assets/images/port2.jpg';
-import port3 from '../assets/images/port3.jpg';
+import portf1 from '../assets/images/port1.jpg';
+import portf2 from '../assets/images/port2.jpg';
+import portf3 from '../assets/images/port3.jpg';
 
 export class Projects extends Component {
   render() {
@@ -49,7 +49,7 @@ export class Projects extends Component {
                     <span className="badge badge-success">Bootstrap</span>
                   </div>
                   <div className="card-title mt-2"><strong>Evzonature</strong></div>
-                  <p className="card-text">Clean, minimalistic and very fast website.  Ecommerce of Eco Friendly Products.</p>
+                  <p className="card-text">Clean, minimalistic and very fast website.  Ecommerce of eco friendly products.</p>
                   <div className="text-center"> 
                     <a className="btn btn-showInfo btn-block" href="#" data-toggle="modal" role="button" data-target="#exampleModal4" target="_blank">See more</a>
                   </div>
@@ -66,7 +66,7 @@ export class Projects extends Component {
                     <span className="badge badge-success">Bootstrap</span>
                   </div>
                   <div className="card-title mt-2"><strong>Apireyna</strong></div>
-                  <p className="card-text">Clean, minimalistic and very fast website.  Ecommerce of Eco Friendly Products.</p>
+                  <p className="card-text">This site shows information about the company and its products. </p>
                   <div className="text-center"> 
                     <a className="btn btn-showInfo btn-block" href="#" data-toggle="modal" role="button" data-target="#exampleModal3" target="_blank">See more</a>
                   </div>
@@ -84,7 +84,7 @@ export class Projects extends Component {
                     <span className="badge badge-dark">API</span>
                   </div>
                   <div className="card-title mt-2"><strong>Piura Clases</strong></div>
-                  <p className="card-text">Clean, minimalistic and very fast website.  Ecommerce of Eco Friendly Products.</p>
+                  <p className="card-text">Website for registration of participants in an online class.</p>
                   <div className="text-center"> 
                     <a className="btn btn-showInfo btn-block" href="#" data-toggle="modal" role="button" data-target="#exampleModal2" target="_blank">See more</a>
                   </div>
@@ -101,7 +101,7 @@ export class Projects extends Component {
                     <span className="badge badge-success">Bootstrap</span>
                   </div>
                   <div className="card-title mt-2"><strong>Portfolio</strong></div>
-                  <p className="card-text">Clean, minimalistic and very fast website.  Ecommerce of Eco Friendly Products.</p>
+                  <p className="card-text">Personal website and portfolio.  Designed and developed with a conscious effort to improve the SEO, performance and responsiveness.</p>
                   <div className="text-center"> 
                     <a className="btn btn-showInfo btn-block" href="#" data-toggle="modal" role="button" data-target="#exampleModal1" target="_blank">See more</a>
                   </div>
@@ -112,7 +112,7 @@ export class Projects extends Component {
         </div>
 
         <div className="modal fade" id="exampleModal4" tabIndex="-1" role="dialog" aria-hidden="true">
-          <div className="modal-dialog" role="document">
+          <div className="modal-dialog custom-modal" role="document">
             <div className="modal-content">
               <div className="modal-header d-flex justify-content-between">
                 <a title="Code" href="https://github.com/enrimeca/evzonature" target="_blank" rel="noopener" ><img src={ Github } className='icon-link' alt='Code' /></a>
@@ -145,8 +145,8 @@ export class Projects extends Component {
                 </div>
               </div>
 
-              <div className="modal-body">
-                <p>Evzonature.</p>
+              <div className="modal-body section-inner">
+                <p>Clean, minimalistic and very fast website.  Ecommerce of Eco Friendly Products.</p>
               </div>
 
               <div className="modal-footer">
@@ -157,7 +157,7 @@ export class Projects extends Component {
         </div>
 
         <div className="modal fade" id="exampleModal3" tabIndex="-1" role="dialog" aria-hidden="true">
-          <div className="modal-dialog" role="document">
+          <div className="modal-dialog custom-modal" role="document">
             <div className="modal-content">
               <div className="modal-header d-flex justify-content-between">
                 <a title="Code" href="https://github.com/enrimeca/apireyna" target="_blank" rel="noopener" ><img src={ Github } className='icon-link' alt='Code' /></a>
@@ -188,8 +188,8 @@ export class Projects extends Component {
                 </div>
               </div>
 
-              <div className="modal-body">
-                <p>Apireyna</p>
+              <div className="modal-body section-inner">
+                <p>This site shows information about the company and its products.</p>
               </div>
 
               <div className="modal-footer">
@@ -231,8 +231,8 @@ export class Projects extends Component {
                 </div>
               </div>
 
-              <div className="modal-body">
-                <p>Piura Clases</p>
+              <div className="modal-body section-inner">
+                <p>Website for registration of participants in an online class.</p>
               </div>
 
               <div className="modal-footer">
@@ -243,7 +243,7 @@ export class Projects extends Component {
         </div>
 
         <div className="modal fade" id="exampleModal1" tabIndex="-1" role="dialog" aria-hidden="true">
-          <div className="modal-dialog" role="document">
+          <div className="modal-dialog custom-modal" role="document">
             <div className="modal-content">
               <div className="modal-header d-flex justify-content-between">
                 <a title="Code" href="https://github.com/enrimeca/portfoliov1" target="_blank" rel="noopener" ><img src={ Github } className='icon-link' alt='Code' /></a>
@@ -254,13 +254,13 @@ export class Projects extends Component {
               <div id="carouselExample1" className="carousel slide" data-ride="carousel">
                   <div className="carousel-inner">
                     <div className="carousel-item active">
-                      <img className="d-block w-100" src={port1} />
+                      <img className="d-block w-100" src={portf1} />
                     </div>
                     <div className="carousel-item">
-                      <img className="d-block w-100" src={port2} />
+                      <img className="d-block w-100" src={portf2} />
                     </div>
                     <div className="carousel-item">
-                      <img className="d-block w-100" src={port3} />
+                      <img className="d-block w-100" src={portf3} />
                     </div>
                   </div>
                   <a className="carousel-control-prev" href="#carouselExample1" role="button" data-slide="prev">
@@ -274,8 +274,8 @@ export class Projects extends Component {
                 </div>
               </div>
 
-              <div className="modal-body">
-                <p>Portfolio</p>
+              <div className="modal-body section-inner">
+                <p>Personal website and portfolio.  Designed and developed with a conscious effort to improve the SEO, performance and responsiveness.</p>
               </div>
 
               <div className="modal-footer">
